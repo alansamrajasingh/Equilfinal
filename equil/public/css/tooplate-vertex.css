@@ -151,6 +151,7 @@ https://ihatetomatoes.net/create-custom-preloading-screen/
 html, body { overflow-x: hidden; }
 body { 
     font-family: 'Kumbh Sans', sans-serif;
+    
     font-size: 18px;
     background-color: #333;
     color: #999;
@@ -258,9 +259,9 @@ span, footer {  line-height: 1.8; }
 
 /* Brand */
 .tm-brand {
-    position: fixed;
-    bottom: 80px;
-    right: 70px;
+    position: absolute;
+    bottom: 400px;
+    left: 10px;
     width: 300px;
     height: 240px;
     margin-top: 0;
@@ -270,7 +271,7 @@ span, footer {  line-height: 1.8; }
     display: flex;
     /* align-items: center; */
     /* justify-content: center; */
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .tm-brand-icon { margin-bottom: 25px; }
@@ -280,7 +281,7 @@ span, footer {  line-height: 1.8; }
 .navbar-toggler { display: none; }
 
 .tm-nav {
-    position: fixed;
+    position:fixed;
     top: 0;
     left: -1px;
     width: 50%;

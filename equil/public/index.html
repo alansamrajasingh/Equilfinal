@@ -8,13 +8,12 @@
     <link rel="stylesheet" href="fontawesome/css/all.min.css">  <!-- https://fontawesome.com/-->  
     <link rel="stylesheet" href="css/magnific-popup.css">       <!-- https://dimsemenov.com/plugins/magnific-popup/ -->
     <link rel="stylesheet" href="css/tooplate-vertex.css">
-<!--
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-Tooplate 2124 Vertex
-
-https://www.tooplate.com/view/2124-vertex
-
--->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oswald:wght@200&display=swap');
+        </style>
 
 </head>
 <body>
@@ -28,11 +27,7 @@ https://www.tooplate.com/view/2124-vertex
     </div>
 
     <!-- Site logo -->
-    <h1 class="tm-brand">
-        <i class="fas fa-mountain fa-2x tm-brand-icon" ></i>
-        <!-- <span class="tm-brand-text">Equil</span>         -->
-        <img src="img/Equil Final Logo-02.png" style="height: 180px;width: 350px;"> 
-    </h1>
+    
 
     <!-- Nav -->
     <nav class="tm-nav">
@@ -68,18 +63,29 @@ https://www.tooplate.com/view/2124-vertex
         </ul>
     </nav>
 
+    
+
     <!-- Content -->
     <main>
         <div id="intro" class="tm-section">
              <!--Intro left -->
+            
+             <h1 class="tm-brand">
+                <img src="img/Equil Final Logo-02.png" style="height: 180px;width: 350px;"> 
+             </h1>
              
             <div class="tm-section-col tm-content">
-                <h1 class="tm-text-primary">EQUIL CONSTRUCTION</h1>
                 <br>
+                <br>
+                <br>
+                <br>
+                <h1 class="tm-text-primary">EQUIL ARCHITECTURAL INNOVATION</h1>
+                <h5 style="color:white;font-family: 'Dancing Script', cursive;font-size: larger;" class="tm-text-primary">"Architecture should speak of it's time and place, but yearn for timelessness."</h5>
                 <div class="tm-media">
-                    <img src="img/bricklayer.gif" alt="Intro image">
+                    <img src="img/grandma.gif" alt="Intro image">
                     <div class="tm-media-body">
                         <!-- <h2><a href="#" class="tm-text-primary">Vertex is a Free CSS Template</a></h2> -->
+                        <h1 style="color:orangered;font-family: 'Dancing Script', cursive;font-size: larger;" class="tm-text-primary">Our Expertice</h1>
                         <p class="tm-mb-20 tm-text-small">
                             With our expertise we provide a wide range of engineering and project management skills to serve our clients in developing new facilities, as well as effectively applying innovative, sustainable and efficient technologies to upgrade and expand the existing facilities. Service we undertake with high standards of quality, commitments, reliability and timeliness.
                         </p>
@@ -91,9 +97,10 @@ https://www.tooplate.com/view/2124-vertex
                 </div>
     
                 <div class="tm-media">
-                    <img src="img/officer.gif" alt="Intro image">
+                    <img src="img/thatha.gif" alt="Intro image">
                     <div class="tm-media-body">
                         <!-- <h2><a href="#" class="tm-text-primary">Responsive and Parallax Images</a></h2> -->
+                        <h1 style="color:gold;font-family: 'Dancing Script', cursive;font-size: larger;" class="tm-text-primary">Construction Management</h1>
                         <p class="tm-mb-20 tm-text-small">
                             Construction Management services, Structural Engineering & Technical manpower supply. The company is managed by professional and geared up to undertake have been engaging in construction activities for jobs and assignments in the field of Design,Fabrication, Erection of Mechanical & Electrical works</p>
                         <!-- <span class="tm-text-secondary tm-media-span tm-text-small">
@@ -104,9 +111,10 @@ https://www.tooplate.com/view/2124-vertex
                 </div>
                 
                 <div class="tm-media">
-                    <img src="img/management.gif" alt="Intro image">
+                    <img src="img/coat.gif" alt="Intro image">
                     <div class="tm-media-body">
                         <!-- <h2><a href="#" class="tm-text-primary">Do you like this HTML layout?</a></h2> -->
+                        <h5 style="color:silver;font-family: 'Dancing Script', cursive;font-size: larger;" class="tm-text-primary">Quality Management</h5>
                         <p class="tm-mb-20 tm-text-small">
                             The management of Equil is committed to the implementation and maintenance of suitable Health and safety, Environment and Quality Management ensuring our Customers and Clients of exceptional service, while ensuring compliance to Legislation.
                         </p>
@@ -123,7 +131,7 @@ https://www.tooplate.com/view/2124-vertex
             </div>
             
              <!--Intro right -->
-            <div class="tm-section-col tm-parallax" data-parallax="scroll" data-image-src="img/big.gif"></div>
+            <div class="tm-section-col tm-parallax" data-parallax="scroll" data-image-src="img/pakki.gif"></div>
         </div> <!--#intro -->
 
         <!--<div id="services" class="tm-section">
@@ -503,24 +511,24 @@ https://www.tooplate.com/view/2124-vertex
 
             /****************** Smooth Scrolling *****************/
 
-            $(".tm-btn-next").on('click', function(event) {
-                if (this.hash !== "") {
-                    event.preventDefault();
-                    var hash = this.hash;
+            // $(".tm-btn-next").on('click', function(event) {
+            //     if (this.hash !== "") {
+            //         event.preventDefault();
+            //         var hash = this.hash;
 
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 800, function(){
-                        // window.location.hash = hash;
-                    });
-                }
-            });
+            //         $('html, body').animate({
+            //             scrollTop: $(hash).offset().top
+            //         }, 800, function(){
+            //             // window.location.hash = hash;
+            //         });
+            //     }
+            // });
 
-            $('.tm-brand-icon').on('click', function(event) {
-                $('html, body').animate({
-                        scrollTop: $('#intro').offset().top
-                    }, 800);
-            });
+            // $('.tm-brand-icon').on('click', function(event) {
+            //     $('html, body').animate({
+            //             scrollTop: $('#intro').offset().top
+            //         }, 800);
+            // });
 
             /****************** Gallery ******************/
 
